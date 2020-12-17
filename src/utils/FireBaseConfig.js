@@ -1,16 +1,17 @@
 import firebase from 'firebase';
 
 var firebaseConfig = {
-    apiKey: "AIzaSyDrgztYOc4qbnQH1EVjDxAVj_TLpPqUiHU",
-    authDomain: "nyous-senai.firebaseapp.com",
-    projectId: "nyous-senai",
-    storageBucket: "nyous-senai.appspot.com",
-    messagingSenderId: "1090206485030",
-    appId: "1:1090206485030:web:e2ae180a030e25c72974e7"
-  };
+  apiKey: "AIzaSyDZAqTtH3Rf_JvEEcAqiYaQznpMuvzGN4c",
+  authDomain: "nyous-manha.firebaseapp.com",
+  projectId: "nyous-manha",
+  storageBucket: "nyous-manha.appspot.com",
+  messagingSenderId: "274759026364",
+  appId: "1:274759026364:web:53fea1e742bb4639c6b2b9"
+};
 
-  const app = firebase.initializeApp(firebaseConfig);
+const app = firebase.initializeApp(firebaseConfig);
 
-  export const db = app.firestore();
+//Para ultilizar o firestore nas paginas
+export const db = app.firestore();
 
-  export default firebaseConfig;
+export default firebaseConfig;

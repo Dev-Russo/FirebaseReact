@@ -7,13 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Páginas
+import Eventos from './pages/eventos'
 import Login from './pages/login'
 import Cadastro from './pages/cadastro'
-import Eventos from './pages/eventos'
 
 //Firebase
 import {FirebaseAppProvider} from 'reactfire';
-import firebaseConfig from './utils/FireBaseConfig.js/firebaseConfig'
+import firebaseConfig from './utils/FireBaseConfig/firebaseConfig'
 
 ReactDOM.render(
   <React.StrictMode>

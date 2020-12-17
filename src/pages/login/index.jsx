@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap'
-import logo from '../../assets/logo_2.png'
+import logo from '../../assets/images/logo_2.png'
 import { useFirebaseApp } from 'reactfire';
 
 const Login = () => {
